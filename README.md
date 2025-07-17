@@ -11,19 +11,20 @@ A modern, viral-ready meme generator web app powered by Google Gemini and Imgfli
 
 ## 🖼️ Screenshots
 
-<p align="center">
-  <img src="public/PUBG.png" alt="PUBG Meme Example" width="400"/>
-  <img src="public/Gandhiji_meme.png" alt="Gandhi Meme Example" width="400"/>
-</p>
-<p align="center">
-  <img src="public/good_people.png" alt="Good People Meme" width="400"/>
-  <img src="public/indian_sarcasm.png" alt="Indian Sarcasm Meme" width="400"/>
-</p>
-<p align="center">
-  <img src="public/mann_ki_baat.png" alt="Mann Ki Baat Meme" width="400"/>
-  <img src="public/meme_2c3d854c092e9f29.jpg" alt="Random Meme Example" width="400"/>
-</p>
-
+<table align="center">
+  <tr>
+    <td align="center"><img src="public/PUBG.png" width="350"/><br/><b>PUBG Meme</b></td>
+    <td align="center"><img src="public/Gandhiji_meme.png" width="350"/><br/><b>Gandhi Meme</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="public/good_people.png" width="350"/><br/><b>Good People Meme</b></td>
+    <td align="center"><img src="public/indian_sarcasm.png" width="350"/><br/><b>Indian Sarcasm Meme</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="public/mann_ki_baat.png" width="350"/><br/><b>Mann Ki Baat Meme</b></td>
+    <td align="center"><img src="public/meme_2c3d854c092e9f29.jpg" width="350"/><br/><b>Random Meme</b></td>
+  </tr>
+</table>
 
 ---
 
