@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🤣 AI Meme Chef</title>
+  <link rel="icon" href="https://emojiapi.dev/api/v1/1f923/32.png">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-gradient"></div>
+  <main>
+    <section class="meme-card glass">
+      <div class="header-row">
+        <span class="logo-emoji" aria-label="meme chef logo">😂</span>
+        <h1 class="meme-heading">AI Meme Chef</h1>
+        <button id="dark-toggle" class="dark-toggle" aria-label="Toggle dark mode">🌙</button>
+      </div>
+      <form id="meme-form" autocomplete="off">
+        <input type="text" id="topic" placeholder="What's the meme about? (e.g., coding at 3am)" required>
+        <button type="submit" id="generate-btn" class="btn btn-primary">Cook Me a Meme 🍳</button>
+      </form>
+      <div id="spinner" class="spinner hidden"></div>
+      <div id="meme-result" class="hidden">
+        <div class="meme-image-wrapper">
+          <div class="meme-image-card">
+            <img id="meme-image" src="" alt="Generated Meme" class="fade-in">
+          </div>
+        </div>
+        <div class="meme-actions">
+          <button id="regenerate-btn" class="btn btn-secondary hidden">Regenerate Meme 🔁</button>
+          <button id="surprise-btn" class="btn btn-secondary hidden">Surprise Me 🤪</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html> 
