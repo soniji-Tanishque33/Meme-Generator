@@ -69,7 +69,7 @@ app.post('/api/meme', async (req, res) => {
 
     // 4. Build a punchy, meme-style prompt for Gemini
     const geminiPrompt = `You are a top-tier meme creator. Given a topic, respond strictly in JSON with:
-"template": a trending meme template name from this list: [${trendingTemplates.join(', ')}] that best matches the topic's emotional tone (e.g. 'Drake Hotline Bling', 'Two Buttons', etc.)
+"template": a trending meme template name from this list: [${templateNames.join(', ')}] that best matches the topic's emotional tone (e.g. 'Drake Hotline Bling', 'Two Buttons', etc.)
 "caption": a short, funny, meme-style caption (max 15 words) that could appear on the image. Use irony, exaggeration, pop culture, and relatable humor. Avoid full sentences and explanations. Make it punchy and viral-ready.
 Respond ONLY in this JSON format:
 {

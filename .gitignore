@@ -1,0 +1,23 @@
+# Ignore backend dependencies
+backend/node_modules/
+# Ignore frontend dependencies (if using npm/yarn in frontend)
+frontend/node_modules/
+
+# Ignore environment variables
+backend/.env
+
+# Ignore OS and editor files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore build artifacts (if any)
+dist/
+build/
+
+# Ignore public static cache (if generated)
+public/cache/
+
+# End of Selection
