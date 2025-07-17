@@ -4,6 +4,29 @@ A modern, viral-ready meme generator web app powered by Google Gemini and Imgfli
 
 ---
 
+## 🚀 Live Demo
+[https://meme-generator-8486.onrender.com](https://meme-generator-8486.onrender.com)
+
+---
+
+## 🖼️ Screenshots
+
+<p align="center">
+  <img src="public/PUBG.png" alt="PUBG Meme Example" width="400"/>
+  <img src="public/Gandhiji_meme.png" alt="Gandhi Meme Example" width="400"/>
+</p>
+<p align="center">
+  <img src="public/good_people.png" alt="Good People Meme" width="400"/>
+  <img src="public/indian_sarcasm.png" alt="Indian Sarcasm Meme" width="400"/>
+</p>
+<p align="center">
+  <img src="public/mann_ki_baat.png" alt="Mann Ki Baat Meme" width="400"/>
+  <img src="public/meme_2c3d854c092e9f29.jpg" alt="Random Meme Example" width="400"/>
+</p>
+
+
+---
+
 ## 🚀 Features
 - **AI-powered meme captions**: Short, funny, meme-style text (not boring explanations!)
 - **Trending meme templates**: Gemini picks the best fit, with variety and no repeats
@@ -70,6 +93,7 @@ Meme Generator/
 - **Spinner** while generating
 - **Fun buttons** with emoji and hover effects
 - **Responsive for mobile**
+- **Dark mode** with glassmorphism and animated gradient
 
 ---
 
